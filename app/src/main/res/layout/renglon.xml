@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#d6d6d6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        >
+
+        <ImageView
+            android:id="@+id/item_sexo"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/masculino"
+            />
+
+
+
+        <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="7dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/item_nombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="5dp"
+                android:gravity="center"
+                android:text="Nombre"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:textFontWeight="match_parent"
+                />
+
+            <TextView
+                android:id="@+id/item_telefono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="12dp"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="3182726766"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+
+        <ImageButton
+            android:id="@+id/item_llamar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/botoncircular"
+            android:src="@drawable/ic_telefono" />
+
+        <ImageButton
+            android:id="@+id/item_eliminar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="12dp"
+            android:adjustViewBounds="false"
+            android:background="@drawable/botoncircular"
+            android:src="@drawable/ic_eliminar" />
+        />
+
+    </LinearLayout>
+</LinearLayout>
