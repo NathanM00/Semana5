@@ -12,6 +12,7 @@ public class Contacto {
         this.sexo = sexo;
     }
 
+
     public String getNombre() {
         return nombre;
     }
