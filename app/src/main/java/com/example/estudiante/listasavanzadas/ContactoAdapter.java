@@ -93,7 +93,6 @@ public class ContactoAdapter extends BaseAdapter{
                         activity.startActivity(llamar);
                     }
                 }
-
             }
         });
 
